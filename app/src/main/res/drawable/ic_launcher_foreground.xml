@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Simple vector mark: a shield with a magnifier, in the app's rose/mauve accent,
+     standing in for a full illustrated launcher icon asset. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp"
+    android:viewportWidth="108" android:viewportHeight="108">
+    <path
+        android:fillColor="#F2C6D5"
+        android:pathData="M54,20 L80,30 L80,55 C80,72 68,84 54,90 C40,84 28,72 28,55 L28,30 Z" />
+    <path
+        android:fillColor="#7A2E42"
+        android:pathData="M54,30 L72,37 L72,55 C72,67 64,76 54,80 C44,76 36,67 36,55 L36,37 Z" />
+    <circle
+        android:cx="50" android:cy="52" android:r="9"
+        android:strokeWidth="4" android:strokeColor="#F2C6D5" android:fillColor="#00000000"/>
+    <path
+        android:strokeWidth="4" android:strokeColor="#F2C6D5"
+        android:pathData="M57,59 L64,66" />
+</vector>
