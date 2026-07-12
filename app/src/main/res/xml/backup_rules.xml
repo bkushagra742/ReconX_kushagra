@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Offline-first, personal-use app: allow full local auto-backup of app data (Room DB, DataStore). -->
+<full-backup-content>
+    <include domain="database" path="." />
+    <include domain="sharedpref" path="." />
+    <include domain="file" path="." />
+</full-backup-content>

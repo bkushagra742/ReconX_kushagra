@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!-- All OSINT network calls (WHOIS, DNS, HTTP header fetch, GeoIP) use
+         standard HTTPS/TLS or well-known plaintext protocols (WHOIS:43, DNS:53)
+         that inherently cannot run over HTTPS. No cleartext HTTP traffic is
+         permitted for anything else. -->
+    <base-config cleartextTrafficPermitted="false" />
+</network-security-config>
