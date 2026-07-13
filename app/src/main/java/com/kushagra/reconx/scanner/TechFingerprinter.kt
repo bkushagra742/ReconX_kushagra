@@ -25,6 +25,7 @@ object TechFingerprinter {
                 server.contains("cloudflare", true) -> findings.add(Finding("CDN", "Cloudflare", "Server header"))
                 server.contains("iis", true) -> findings.add(Finding("Web Server", "Microsoft IIS", "Server header"))
                 else -> {}
+            }
         }
 
         normalized["x-powered-by"]?.let { poweredBy ->
@@ -48,6 +49,7 @@ object TechFingerprinter {
                 cookie.contains("laravel_session", true) -> findings.add(Finding("Framework", "Laravel", "Set-Cookie header"))
                 cookie.contains("django", true) -> findings.add(Finding("Framework", "Django", "Set-Cookie header"))
             else -> {}
+            }
         }
 
         normalized["link"]?.let { link ->
