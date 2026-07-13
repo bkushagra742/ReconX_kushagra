@@ -1,19 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Simple vector mark: a shield with a magnifier, in the app's rose/mauve accent,
-     standing in for a full illustrated launcher icon asset. -->
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
-    android:width="108dp" android:height="108dp"
-    android:viewportWidth="108" android:viewportHeight="108">
-    <path
-        android:fillColor="#F2C6D5"
-        android:pathData="M54,20 L80,30 L80,55 C80,72 68,84 54,90 C40,84 28,72 28,55 L28,30 Z" />
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Shield -->
     <path
         android:fillColor="#7A2E42"
-        android:pathData="M54,30 L72,37 L72,55 C72,67 64,76 54,80 C44,76 36,67 36,55 L36,37 Z" />
-    <circle
-        android:cx="50" android:cy="52" android:r="9"
-        android:strokeWidth="4" android:strokeColor="#F2C6D5" android:fillColor="#00000000"/>
+        android:pathData="M54,16L84,28V52C84,73 70,90 54,96C38,90 24,73 24,52V28L54,16Z"/>
+
+    <!-- Inner Shield -->
     <path
-        android:strokeWidth="4" android:strokeColor="#F2C6D5"
-        android:pathData="M57,59 L64,66" />
+        android:fillColor="#F2C6D5"
+        android:pathData="M54,26L74,34V52C74,66 65,78 54,84C43,78 34,66 34,52V34L54,26Z"/>
+
+    <!-- Magnifying Glass Ring -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#7A2E42"
+        android:strokeWidth="4"
+        android:pathData="M50,40
+                          C44,40 40,44 40,50
+                          C40,56 44,60 50,60
+                          C56,60 60,56 60,50
+                          C60,44 56,40 50,40
+                          Z"/>
+
+    <!-- Handle -->
+    <path
+        android:strokeColor="#7A2E42"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:pathData="M58,58 L68,68"/>
+
 </vector>
