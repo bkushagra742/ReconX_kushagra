@@ -135,7 +135,7 @@ next step (see **Known Gaps** below) rather than being silently left out.
 2. Let Gradle sync (it will download the AGP 8.5.2 / Kotlin 1.9.24 / Compose BOM
    2024.06.00 toolchain on first sync).
 3. Run on a device/emulator running API 24+.
-4. Log in with `admin` / `kushagra`.
+4. Log in with password.
 
 Release builds have `isMinifyEnabled = true` and `isShrinkResources = true` with R8 full
 mode enabled in `gradle.properties`, and the dependency list is deliberately short
@@ -173,7 +173,7 @@ supposed to run -- they're simply the pieces flagged for a follow-up pass.
 
 ## License
 
-MIT License. See the in-app About Application screen for the open-source
+private project . See the in-app About Application screen for the open-source
 acknowledgements (Compose, Room, DataStore, security-crypto, biometric, coroutines).
 
 &copy; 2026 Kushagra Singh Bisht. All Rights Reserved.
