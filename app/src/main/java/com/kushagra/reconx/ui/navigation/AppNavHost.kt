@@ -69,6 +69,7 @@ import com.kushagra.reconx.viewmodel.RegexLabViewModel
 import com.kushagra.reconx.viewmodel.ReportsViewModel
 import com.kushagra.reconx.viewmodel.SettingsViewModel
 import com.kushagra.reconx.viewmodel.ViewModelFactory
+import com.kushagra.reconx.viewmodel.WebsiteSecurityViewModel
 import androidx.lifecycle.viewmodel.compose.viewModel
 
 private val BOTTOM_NAV_ROUTES = setOf(
